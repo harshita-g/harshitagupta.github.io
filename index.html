@@ -59,16 +59,18 @@
     <aside class="sidebar" id="sidebar">
       <div class="photo" aria-hidden="true"></div>
       <h1 id="name">Harshita Gupta</h1>
-      <div class="role">M.S. Computer Science — Machine Learning & Software Engineering</div>
+      <div class="role">M.S. Computer Science — Machine Learning </div>
       <div class="contact">
-        <div>Email: <a href="mailto:write2harshita@yahoo.com">harshita@example.com</a></div>
-        <div>LinkedIn: <a href="#">https://www.linkedin.com/in/harshita-gupta-hg12/</a></div>
+        <div>Email: <a href="mailto:write2harshita@yahoo.com">write2harshita@yahoo.com</a></div>
+        <div>LinkedIn: <a href="https://www.linkedin.com/in/harshita-gupta-hg12/" target="_blank" style="color:var(--accent); text-decoration:underline;">
+          View Profile</a></div>
       </div>
 
       <nav class="nav" aria-label="Section navigation">
-        <a href="#basics" class="nav-link active">Basics</a>
+        <a href="#about" class="nav-link active">Basics</a>
         <a href="#work">Work</a>
         <a href="#education">Education</a>
+        <a href="#achievments">Achievements</a>
         <a href="#skills">Skills</a>
         <a href="#projects">Projects</a>
         <a href="#contact">Contact</a>
@@ -81,92 +83,196 @@
           <h2 class="section-title">About</h2>
           <div class="small">Current</div>
         </div>
-        <p class="small" style="margin-top:10px">    
-        I am a M.S. Computer Science student at XYZ University, working on Machine Learning & Software Engineering. Previously, I’ve interned at ExampleCorp and StartupX. My interests include building reliable systems, full-stack applications, and converting research ideas into production.
+        <p class="small" style="margin-top:10px">
+          I completed my Master's in Computer Science at New Jersey Institute of Technology (GPA: 3.75), specializing in machine learning,
+          distributed systems, and data engineering. My background combines <strong>software engineering</strong>, <strong>applied AI</strong>,
+          and <strong>data systems</strong>, with hands-on experience in academia, research, and industry.
         </p>
+
+        <p class="small" style="margin-top:10px">
+        At <strong>Objectstream</strong>, I built a GenAI-powered SQL assistant using open-source LLMs and PySpark pipelines that processed
+        40M+ records, and designed validation modules reducing data QA overhead by 60%. At <strong>NKR Solutions</strong>, I developed
+        trading algorithms with ML (Random Forest, XGBoost) and automated broker integrations. My research at IIIT-Delhi focused on
+        multimodal deep learning for depression detection, with submissions to the ACII conference.
+        </p>
+
+        <p class="small" style="margin-top:10px">
+        I am passionate about building scalable ML systems, end-to-end pipelines, and full-stack applications that bring real-world
+        impact. Beyond coursework, I have built projects in GenAI (Slide QA system), computer vision (Image Captioning with CNN-LSTM, 
+        Distracted Driver Detection with YOLOv5), and reinforcement learning (Stock Market Prediction with multi-agent RL).
+        </p>
+
       </section>
 
       <section id="work">
-        <div class="section-head">
-          <h2 class="section-title">Work Experience</h2>
-          <div class="small">Selected roles</div>
+      <div class="section-head">
+        <h2 class="section-title">Work Experience</h2>
+        <div class="small">Industry & Research Roles</div>
+      </div>
+
+      <div class="grid-2" style="margin-top:12px">
+        <!-- Objectstream -->
+        <div class="card">
+          <strong>Data Analyst / Engineer — Objectstream</strong>
+          <div class="small">Jan 2024 – Present • New Jersey</div>
+          <ul style="margin-top:8px">
+            <li>Built a <strong>GenAI-powered SQL assistant</strong> with open-source LLMs and schema-aware prompts, cutting query drafting time by 80%.</li>
+            <li>Engineered scalable <strong>Python + PySpark pipelines</strong> to process 40M+ AWS S3 records into PostgreSQL/MongoDB.</li>
+            <li>Developed <strong>validation & anomaly detection modules</strong>, reducing QA overhead by 60% and catching 95% of onboarding errors.</li>
+            <li>Managed <strong>CI/CD pipelines</strong> in GitHub Actions, streamlining deployments and regression testing.</li>
+          </ul>
         </div>
-        <div class="grid-2" style="margin-top:12px">
-          <div class="card">
-            <strong>ML Intern — ExampleCorp</strong>
-            <div class="small">Jun 2024 — Aug 2024 • Mountain View, CA</div>
-            <ul style="margin-top:8px">
-              <li>Built a model for X that improved Y by 12%.</li>
-              <li>Deployed inference pipelines using Docker and FastAPI.</li>
-            </ul>
-          </div>
-          <div class="card">
-            <strong>Software Engineer Intern — StartUpX</strong>
-            <div class="small">Jan 2024 — May 2024 • Remote</div>
-            <ul style="margin-top:8px">
-              <li>Implemented a notifications system and redesigned frontend components.</li>
-              <li>Wrote unit and integration tests using pytest and Playwright.</li>
-            </ul>
-          </div>
+
+        <!-- NKR Solutions -->
+        <div class="card">
+          <strong>Software Developer — NKR Solutions</strong>
+          <div class="small">Nov 2023 – Feb 2024 • Remote</div>
+          <ul style="margin-top:8px">
+            <li>Designed ML-powered <strong>trading algorithms</strong> (Random Forest, XGBoost) to improve trade signal accuracy.</li>
+            <li>Automated 80% of manual processes via <strong>broker API modules</strong> (Zerodha, Interactive Brokers).</li>
+            <li>Created <strong>Python UI automation scripts</strong>, reducing strategy test time by 50%.</li>
+          </ul>
         </div>
-      </section>
+
+        <!-- Research Assistant -->
+        <div class="card">
+          <strong>Research Assistant — IIIT Delhi</strong>
+          <div class="small">Sep 2023 – Jan 2024 • New Delhi</div>
+          <ul style="margin-top:8px">
+            <li>Developed a <strong>multimodal deep learning system</strong> for depression detection (Stacked LSTMs + SHAP), submitted to ACII conference.</li>
+            <li>Pretrained a <strong>Multi-Modal Masked Autoencoder</strong> on Kinetics dataset, improving action reconstruction across RGB, Depth & Semantic modalities.</li>
+          </ul>
+        </div>
+
+        <!-- Bluekaktus -->
+        <div class="card">
+          <strong>Software Engineer Intern — Bluekaktus</strong>
+          <div class="small">May 2022 – Aug 2022 • New Delhi</div>
+          <ul style="margin-top:8px">
+            <li>Optimized SQL queries & backend APIs for inventory modules, reducing query time by 40%.</li>
+          </ul>
+        </div>
+
+        <!-- Cadence Design Systems -->
+        <div class="card">
+          <strong>Summer Trainee — Cadence Design Systems</strong>
+          <div class="small">May 2021 – Aug 2021 • Noida</div>
+          <ul style="margin-top:8px">
+            <li>Built internal web tools (PHP, HTML, CSS, JS) to automate performance comparisons across simulations.</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
 
       <section id="education">
-        <div class="section-head">
-          <h2 class="section-title">Education</h2>
-          <div class="small">Relevant coursework: Algorithms, ML, Databases</div>
+      <div class="section-head">
+        <h2 class="section-title">Education</h2>
+        <div class="small">Degrees & Academic Highlights</div>
+      </div>
+
+      <div style="margin-top:12px" class="grid-2">
+        <!-- NJIT -->
+        <div class="card">
+          <strong>New Jersey Institute of Technology</strong>
+          <div class="small">M.S. Computer Science • Jan 2024 – May 2025</div>
+          <ul style="margin-top:8px">
+            <li>GPA: <strong>3.75</strong></li>
+            <li>Focused on Machine Learning, Distributed Systems, and Data Engineering.</li>
+            <li>Key projects: Stock Market Prediction using RL, GenAI-powered Slide QA system.</li>
+          </ul>
         </div>
-        <div style="margin-top:12px">
-          <div class="card">
-            <strong>M.S. Computer Science — San Jose State University</strong>
-            <div class="small">2024 — Present</div>
-            <p style="margin-top:8px">Focused on machine learning, data systems, and software engineering. GPA: 3.8/4.0</p>
-          </div>
+
+        <!-- IIIT-Delhi -->
+        <div class="card">
+          <strong>Indraprastha Institute of Information Technology, Delhi</strong>
+          <div class="small">B.Tech in Computer Science & Engineering (AI) • Jul 2019 – Jun 2023</div>
+          <ul style="margin-top:8px">
+            <li>Specialization in Artificial Intelligence.</li>
+            <li>Conducted research in multimodal deep learning for healthcare.</li>
+            <li>Achievements: Dean’s List for Academic Excellence (2020–2021).</li>
+          </ul>
         </div>
+      </div>
+    </section>
+
+      <section id="achievements">
+      <div class="section-head">
+        <h2 class="section-title">Achievements</h2>
+        <div class="small">Degrees & Academic Highlights</div>
+      </div>
+
       </section>
+
 
       <section id="skills">
-        <div class="section-head">
-          <h2 class="section-title">Skills</h2>
-          <div class="small">Technologies & tools</div>
+      <div class="section-head">
+        <h2 class="section-title">Skills</h2>
+        <div class="small">Technologies & Tools</div>
+      </div>
+
+      <div style="margin-top:12px">
+        <div class="card">
+          <strong>Languages & Frameworks</strong>
+          <p style="margin-top:6px">
+            Java, Python, C++, HTML, CSS, SQL, Data Structures, OOP
+          </p>
         </div>
-        <div style="margin-top:12px">
-          <div class="card">
-            <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px">
-              <strong>Programming</strong><span class="small">Expert</span>
-            </div>
-            <div class="skill"><div>Python</div><div class="skill-bar" style="width:50%"><div class="skill-fill" style="width:92%"></div></div></div>
-            <div class="skill"><div>Java</div><div class="skill-bar" style="width:50%"><div class="skill-fill" style="width:78%"></div></div></div>
-            <div class="skill"><div>PySpark</div><div class="skill-bar" style="width:50%"><div class="skill-fill" style="width:70%"></div></div></div>
-          </div>
+
+        <div class="card" style="margin-top:12px">
+          <strong>Tools & Technologies</strong>
+          <p style="margin-top:6px">
+            PostgreSQL, MongoDB, AWS (EC2, S3), Kafka, Elasticsearch, Linux, scikit-learn, TensorFlow, PyTorch, Pandas, NumPy, Huggingface, OpenCV, LLMs, SDLC, CI/CD, Multithreading, Distributed Systems, GitHub, Git, Postman
+          </p>
         </div>
-      </section>
+      </div>
+    </section>
+
 
       <section id="projects">
-        <div class="section-head">
-          <h2 class="section-title">Projects</h2>
-          <div class="small">Highlights</div>
-        </div>
-        <div style="margin-top:12px">
-          <div class="card proj">
-            <img src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?auto=format&fit=crop&w=800&q=60" alt="project screenshot">
-            <div>
-              <strong>Soil Survey Agent</strong>
-              <div class="small">Python • MongoDB • ML</div>
-              <p style="margin-top:8px">A retrieval-augmented agent that queries soil survey PDFs and returns structured answers. Built an ETL pipeline to extract PDF features and indexed them in MongoDB for fast retrieval.</p>
-            </div>
-          </div>
+      <div class="section-head">
+        <h2 class="section-title">Projects</h2>
+        <div class="small">Highlights</div>
+      </div>
 
-          <div class="card proj" style="margin-top:10px">
-            <img src="https://images.unsplash.com/photo-1526378722656-7f7a3b91c3b5?auto=format&fit=crop&w=800&q=60" alt="project screenshot">
-            <div>
-              <strong>Introverts vs Extroverts Classifier</strong>
-              <div class="small">Kaggle • Feature Engineering</div>
-              <p style="margin-top:8px">Built features and models for a Kaggle competition to classify personality types; used ensemble learning and careful validation to squeeze performance gains.</p>
-            </div>
-          </div>
+        <div class="card" style="margin-bottom:10px">
+          <strong>Trading Algorithms with ML</strong>
+          <div class="small">Python • Random Forest • XGBoost • Broker APIs</div>
+          <p style="margin-top:6px">Designed ML-powered trading strategies and automated broker integrations, improving trade signal accuracy and reducing manual work by 80%.</p>
         </div>
-      </section>
+
+        <div class="card" style="margin-bottom:10px">
+          <strong>Multimodal Deep Learning for Depression Detection</strong>
+          <div class="small">Python • LSTM • SHAP • ACII Submission</div>
+          <p style="margin-top:6px">Developed a multimodal system combining visual and audio features to detect depression. Pretrained multi-modal masked autoencoders for RGB, Depth, and Semantic modalities.</p>
+        </div>
+
+        <div class="card" style="margin-bottom:10px">
+          <strong>GenAI Slide QA System</strong>
+          <div class="small">Python • LLM • PySpark</div>
+          <p style="margin-top:6px">Created a system to answer questions from slide decks using open-source LLMs. Integrated document processing pipelines for fast, accurate retrieval.</p>
+        </div>
+
+        <div class="card" style="margin-bottom:10px">
+          <strong>Stock Market Prediction with Multi-Agent RL</strong>
+          <div class="small">Python • Reinforcement Learning • NJIT</div>
+          <p style="margin-top:6px">Implemented a multi-agent RL system to simulate trading strategies and predict stock market trends, optimizing cumulative rewards.</p>
+        </div>
+
+        <div class="card" style="margin-bottom:10px">
+          <strong>Image Captioning with CNN-LSTM</strong>
+          <div class="small">Python • CNN-LSTM • Computer Vision</div>
+          <p style="margin-top:6px">Built a system to generate textual descriptions for images. Preprocessed datasets and trained models for accurate caption generation.</p>
+        </div>
+
+        <div class="card" style="margin-bottom:10px">
+          <strong>Distracted Driver Detection with YOLOv5</strong>
+          <div class="small">Python • YOLOv5 • Computer Vision</div>
+          <p style="margin-top:6px">Developed a real-time detection system to identify distracted drivers using YOLOv5, improving road safety analytics.</p>
+        </div>
+      </div>
+    </section>
+
 
       <section id="contact">
         <div class="section-head">
@@ -175,7 +281,8 @@
         </div>
         <div style="margin-top:12px">
           <div class="card">
-            <p class="small">I'm open to internships, research, and full-time roles in software engineering and machine learning. Email me at <a href="mailto:harshita@example.com">harshita@example.com</a> or connect on LinkedIn.</p>
+            <p class="small">I'm open to research, and full-time roles in software engineering and machine learning. Email me at <a href="mailto:write2harshita@yahoo.com">write2harshita@yahoo.com</a> or connect on <a href="https://www.linkedin.com/in/harshita-gupta-hg12/" target="_blank">LinkedIn</a>.
+            </p>
             <div style="margin-top:8px">
               <button id="downloadPdf" style="background:var(--accent);border:0;padding:8px 12px;border-radius:8px;color:white;cursor:pointer">Download as PDF</button>
             </div>
@@ -183,7 +290,7 @@
         </div>
       </section>
 
-      <footer>Built with ♥ — edit this page to personalize content and replace placeholder images.</footer>
+      <footer></footer>
     </main>
   </div>
 
