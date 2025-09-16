@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Harshita Gupta — CV</title>
+  <meta name="description" content="Harshita Gupta — Computer Science Master's student. Resume / CV." />
+  <style>
+    :root{
+      --bg:#0f1724; --panel:#0b1220; --muted:#94a3b8; --accent:#7c3aed; --card:#0b1220; --glass: rgba(255,255,255,0.03);
+      --maxw:1100px;
+      color-scheme: dark;
+    }
+    *{box-sizing:border-box}
+    body{font-family:Inter, ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; margin:0;background:linear-gradient(180deg,#071023 0%, #07121a 100%);color:#e6eef8;line-height:1.5}
+    a{color:var(--accent); text-decoration:none}
+    .container{max-width:var(--maxw);margin:32px auto;padding:28px;display:grid;grid-template-columns:300px 1fr;gap:28px}
+
+    /* sidebar */
+    .sidebar{background:var(--panel);padding:20px;border-radius:12px;box-shadow:0 6px 20px rgba(2,6,23,0.6);position:sticky;top:24px;height:fit-content}
+    .photo{width:96px;height:96px;border-radius:14px;background:linear-gradient(135deg,#1f2937,#111827);display:block;margin-bottom:12px}
+    h1{margin:0 0 6px;font-size:20px}
+    .role{color:var(--muted);font-size:13px;margin-bottom:14px}
+    .contact{font-size:13px;color:var(--muted);margin-top:12px}
+    .nav{margin-top:18px}
+    .nav a{display:block;padding:8px 10px;border-radius:8px;color:var(--muted);margin-bottom:6px}
+    .nav a.active, .nav a:hover{background:var(--glass);color:#e6eef8}
+
+    /* main */
+    .main{padding:22px;background:linear-gradient(180deg, rgba(255,255,255,0.02), transparent);border-radius:12px}
+    section{padding:14px 0;border-bottom:1px dashed rgba(255,255,255,0.03)}
+    section:last-child{border-bottom:0}
+    .section-head{display:flex;align-items:center;justify-content:space-between}
+    .section-title{font-size:16px;margin:0;color:#cfe7ff}
+    .small{font-size:13px;color:var(--muted)}
+
+    .grid-2{display:grid;grid-template-columns:1fr 1fr;gap:12px;margin-top:12px}
+
+    .card{background:rgba(255,255,255,0.02);padding:12px;border-radius:10px}
+
+    /* skills */
+    .skill{display:flex;justify-content:space-between;margin-bottom:8px}
+    .skill-bar{height:8px;background:rgba(255,255,255,0.04);border-radius:6px;overflow:hidden;margin-left:12px}
+    .skill-fill{height:100%;border-radius:6px;background:linear-gradient(90deg,var(--accent),#06b6d4)}
+
+    /* projects */
+    .proj{display:flex;gap:12px;align-items:flex-start}
+    .proj img{width:84px;height:56px;border-radius:8px;object-fit:cover}
+
+    /* footer */
+    footer{margin-top:18px;text-align:center;color:var(--muted);font-size:13px}
+
+    /* responsive */
+    @media (max-width:900px){.container{grid-template-columns:1fr;padding:16px} .sidebar{position:relative;display:flex;gap:12px;align-items:center} .nav{display:flex;gap:8px;overflow:auto} .nav a{white-space:nowrap} }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <aside class="sidebar" id="sidebar">
+      <div class="photo" aria-hidden="true"></div>
+      <h1 id="name">Harshita Gupta</h1>
+      <div class="role">M.S. Computer Science — Machine Learning & Software Engineering</div>
+      <div class="contact">
+        <div>Email: <a href="mailto:harshita@example.com">harshita@example.com</a></div>
+        <div>Location: San Jose, CA</div>
+        <div>LinkedIn: <a href="#">linkedin.com/in/harshita</a></div>
+      </div>
+
+      <nav class="nav" aria-label="Section navigation">
+        <a href="#basics" class="nav-link active">Basics</a>
+        <a href="#work">Work</a>
+        <a href="#education">Education</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </aside>
+
+    <main class="main" id="main">
+      <section id="basics">
+        <div class="section-head">
+          <h2 class="section-title">Basics</h2>
+          <div class="small">Current | Open to internships</div>
+        </div>
+        <p class="small" style="margin-top:10px">Short summary: I build reliable machine learning systems and full-stack applications. I enjoy converting research ideas into production software and collaborating with cross-functional teams to ship high-impact features.</p>
+      </section>
+
+      <section id="work">
+        <div class="section-head">
+          <h2 class="section-title">Work Experience</h2>
+          <div class="small">Selected roles</div>
+        </div>
+        <div class="grid-2" style="margin-top:12px">
+          <div class="card">
+            <strong>ML Intern — ExampleCorp</strong>
+            <div class="small">Jun 2024 — Aug 2024 • Mountain View, CA</div>
+            <ul style="margin-top:8px">
+              <li>Built a model for X that improved Y by 12%.</li>
+              <li>Deployed inference pipelines using Docker and FastAPI.</li>
+            </ul>
+          </div>
+          <div class="card">
+            <strong>Software Engineer Intern — StartUpX</strong>
+            <div class="small">Jan 2024 — May 2024 • Remote</div>
+            <ul style="margin-top:8px">
+              <li>Implemented a notifications system and redesigned frontend components.</li>
+              <li>Wrote unit and integration tests using pytest and Playwright.</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="education">
+        <div class="section-head">
+          <h2 class="section-title">Education</h2>
+          <div class="small">Relevant coursework: Algorithms, ML, Databases</div>
+        </div>
+        <div style="margin-top:12px">
+          <div class="card">
+            <strong>M.S. Computer Science — San Jose State University</strong>
+            <div class="small">2024 — Present</div>
+            <p style="margin-top:8px">Focused on machine learning, data systems, and software engineering. GPA: 3.8/4.0</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="skills">
+        <div class="section-head">
+          <h2 class="section-title">Skills</h2>
+          <div class="small">Technologies & tools</div>
+        </div>
+        <div style="margin-top:12px">
+          <div class="card">
+            <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:8px">
+              <strong>Programming</strong><span class="small">Expert</span>
+            </div>
+            <div class="skill"><div>Python</div><div class="skill-bar" style="width:50%"><div class="skill-fill" style="width:92%"></div></div></div>
+            <div class="skill"><div>Java</div><div class="skill-bar" style="width:50%"><div class="skill-fill" style="width:78%"></div></div></div>
+            <div class="skill"><div>PySpark</div><div class="skill-bar" style="width:50%"><div class="skill-fill" style="width:70%"></div></div></div>
+          </div>
+        </div>
+      </section>
+
+      <section id="projects">
+        <div class="section-head">
+          <h2 class="section-title">Projects</h2>
+          <div class="small">Highlights</div>
+        </div>
+        <div style="margin-top:12px">
+          <div class="card proj">
+            <img src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?auto=format&fit=crop&w=800&q=60" alt="project screenshot">
+            <div>
+              <strong>Soil Survey Agent</strong>
+              <div class="small">Python • MongoDB • ML</div>
+              <p style="margin-top:8px">A retrieval-augmented agent that queries soil survey PDFs and returns structured answers. Built an ETL pipeline to extract PDF features and indexed them in MongoDB for fast retrieval.</p>
+            </div>
+          </div>
+
+          <div class="card proj" style="margin-top:10px">
+            <img src="https://images.unsplash.com/photo-1526378722656-7f7a3b91c3b5?auto=format&fit=crop&w=800&q=60" alt="project screenshot">
+            <div>
+              <strong>Introverts vs Extroverts Classifier</strong>
+              <div class="small">Kaggle • Feature Engineering</div>
+              <p style="margin-top:8px">Built features and models for a Kaggle competition to classify personality types; used ensemble learning and careful validation to squeeze performance gains.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact">
+        <div class="section-head">
+          <h2 class="section-title">Contact</h2>
+          <div class="small">Let's connect</div>
+        </div>
+        <div style="margin-top:12px">
+          <div class="card">
+            <p class="small">I'm open to internships, research, and full-time roles in software engineering and machine learning. Email me at <a href="mailto:harshita@example.com">harshita@example.com</a> or connect on LinkedIn.</p>
+            <div style="margin-top:8px">
+              <button id="downloadPdf" style="background:var(--accent);border:0;padding:8px 12px;border-radius:8px;color:white;cursor:pointer">Download as PDF</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <footer>Built with ♥ — edit this page to personalize content and replace placeholder images.</footer>
+    </main>
+  </div>
+
+  <script>
+    // Smooth scrolling & active nav
+    const links = document.querySelectorAll('.nav-link');
+    links.forEach(a=>a.addEventListener('click', e=>{
+      links.forEach(x=>x.classList.remove('active'));
+      a.classList.add('active');
+    }));
+
+    // make active on scroll
+    const sections = document.querySelectorAll('main section');
+    window.addEventListener('scroll', ()=>{
+      let fromTop = window.scrollY + 100;
+      sections.forEach(section=>{
+        if(section.offsetTop <= fromTop && section.offsetTop + section.offsetHeight > fromTop){
+          const id = section.id;
+          document.querySelectorAll('.nav a').forEach(a=>a.classList.remove('active'));
+          const active = document.querySelector('.nav a[href="#'+id+'"]');
+          if(active) active.classList.add('active');
+        }
+      })
+    });
+
+    // PDF export (simple print)
+    document.getElementById('downloadPdf').addEventListener('click', ()=>{
+      window.print();
+    });
+
+    // Replace placeholders quickly (example):
+    // edit the #name text or other DOM nodes to personalize the page
+  </script>
+</body>
+</html>
