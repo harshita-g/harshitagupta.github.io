@@ -6,7 +6,7 @@ subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: profile_pic_h.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
 
@@ -26,7 +26,7 @@ latest_posts:
 
 Hi! I’m Harshita, a recent Master’s student in Computer Science at NJIT specializing in Data Engineering and Machine Learning.  
 
-I am a machine learning enthusiast who loves finding patterns in data and transforming them into insights. I enjoy building scalable, practical solutions — my mindset is simple: *if there’s a problem, there’s an AI solution for that*.  
+I am a machine learning enthusiast who loves finding patterns in data and transforming them into insights. I enjoy building scalable, realtime solutions.
 
 Beyond academics, I’m passionate about applying AI to real-world challenges, from automating data workflows to developing intelligent applications. My goal is to combine technical depth with creativity to build systems that are both efficient and impactful.
 
