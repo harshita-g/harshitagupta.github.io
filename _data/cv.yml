@@ -2,96 +2,101 @@
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+      value: Harshita Gupta
+    - name: Email
+      value: write2harshita@yahoo.com
+    - name: LinkedIn
+      value: http://www.linkedin.com/in/harshita-gupta-hg12
+    - name: GitHub
+      value: https://github.com/harshita-g
+    - name: Phone
+      value: +1-(732)496-0919
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: M.S. Computer Science
+      institution: New Jersey Institute of Technology, New Jersey
+      year: Jan 2024 – May 2025
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
-      description:
-        - Description 1.
-        - Description 2.
+        - GPA: 3.75
+    - title: B.Tech Computer Science (AI)
+      institution: Indraprastha Institute of Information Technology, New Delhi
+      year: July 2019 – June 2023
 
 - title: Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Data Engineer
+      institution: Objectstream Inc.
+      year: Jan 2024 – Present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Built a GenAI SQL assistant and large-scale PySpark ETL pipelines, improving query time and throughput by 80%.  
+        - Automated data QA with anomaly detection, cutting errors by 95%.  
+    - title: Software Developer
+      institution: NKR Solutions
+      year: Nov 2023 – Feb 2024
       description:
-        - Description 1.
-        - Description 2.
-
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
+        - Developed ML-powered trading algorithms and automated broker integrations, reducing manual work by 80%.  
+    - title: Research Assistant
+      institution: IIIT Delhi
+      year: Sep 2023 – Jan 2024
       description:
+        - Designed multimodal depression detection model (stacked LSTMs + SHAP).  
+    - title: Software Engineer Intern
+      institution: Bluekaktus
+      year: May 2022 – Aug 2022
+      description:
+        - Optimized SQL queries & backend APIs, reducing response time by 40%.  
+    - title: Summer Trainee
+      institution: Cadence Design Systems
+      year: May 2021 – Aug 2021
+      description:
+        - Built frontend tools (PHP/JS) to automate simulation comparisons.  
 
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
+- title: Technical Skills
+  type: list
+  contents:
+    - <u>Languages:</u> Python, Java, C++, SQL  
+    - <u>Tools:</u> AWS, GCP, Docker, GitHub Actions, PySpark, Airflow, Kafka  
+    - <u>Databases:</u> PostgreSQL, MongoDB, Cassandra  
+    - <u>ML/AI:</u> CV (YOLOv5, OpenCV), NLP, PyTorch, TensorFlow, HuggingFace  
 
-- title: Open Source Projects
+- title: Selected Projects
   type: time_table
   contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
+    - title: GenAI Slide QA System
+      year: 2024
+      description:
+        - RAG pipeline over PDFs using FAISS + FLAN-T5.  
+    - title: Image Captioning with Attention
+      year: 2023
+      description:
+        - CNN-LSTM with ResNet-101, BLEU-4: 0.1637 on Flickr8k.  
+    - title: Distracted Driver Detection
+      year: 2022
+      description:
+        - YOLOv5-based real-time traffic safety system.  
+    - title: Stock Prediction with RL
+      year: 2021
+      description:
+        - Trained PPO/A2C/DDPG agents, improved Sharpe ratio by 30%.  
 
-- title: Honors and Awards
+- title: Achievements
   type: time_table
   contents:
-    - year: 1921
+    - year: 2025
       items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
+        - Google Cloud Badge: Generative AI  
+    - year: 2023
       items:
-        - Max Planck Medal
-
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
+        - Mentor, Student Mentorship Program  
+    - year: 2021
       items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
+        - Winner, Game Design Hackathon (1st place)  
+        - Dean’s List for Academic Excellence  
 
 - title: Other Interests
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - <u>Hobbies:</u> Reading, Coding
