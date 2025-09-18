@@ -3,39 +3,32 @@ const ninja = document.querySelector('ninja-keys');
 
 // add the home and posts menu items
 ninja.data = [{
-    id: "nav-",
-    title: "",
+    id: "nav-harshita-gupta",
+    title: "Harshita Gupta",
     section: "Navigation",
     handler: () => {
-      window.location.href = "/";
+      window.location.href = "/harshitagupta.github.io/";
     },
-  },{id: "nav-blog",
-          title: "blog",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/blog/";
-          },
-        },{id: "nav-cv",
+  },{id: "nav-cv",
           title: "cv",
           description: "To download the CV, click on the PDF button.",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/cv/";
+            window.location.href = "/harshitagupta.github.io/cv/";
           },
         },{id: "nav-people",
           title: "people",
           description: "members of the lab or group",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/people/";
+            window.location.href = "/harshitagupta.github.io/people/";
           },
         },{id: "nav-submenus",
           title: "submenus",
           description: "",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/_pages/dropdown.html";
+            window.location.href = "/harshitagupta.github.io/_pages/dropdown.html";
           },
         },{
         id: 'social-email',
