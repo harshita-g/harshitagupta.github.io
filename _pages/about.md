@@ -1,7 +1,7 @@
 ---
 layout: about
 title: Harshita Gupta
-# permalink: /
+permalink: /
 # subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
 
 profile:
