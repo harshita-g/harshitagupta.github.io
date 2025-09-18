@@ -192,7 +192,6 @@ exclude:
   - README.md
   - readme_preview/
   - vendor
-  - _pages/blog.md
   - _pages/books.md
   - _pages/news.md
   - _pages/teaching.md
@@ -206,7 +205,7 @@ keep_files:
 
 # Plug-ins
 plugins:
-  - jekyll-archives-v2
+  # - jekyll-archives-v2
   - jekyll-email-protect
   - jekyll-feed
   - jekyll-get-json
