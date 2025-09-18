@@ -20,35 +20,35 @@
       year: Jan 2024 – May 2025
     - title: B.Tech Computer Science (AI)
       institution: Indraprastha Institute of Information Technology, New Delhi
-      year: July 2019 – June 2023
+      timeline: July '19 – June '23
 
 - title: Experience
   type: time_table
   contents:
     - title: Data Engineer
       institution: Objectstream Inc.
-      year: Jan 2024 – Present
+      timeline: Jan '24 – Present
       description:
         - Built a GenAI SQL assistant and large-scale PySpark ETL pipelines, improving query time and throughput by 80%.  
         - Automated data QA with anomaly detection, cutting errors by 95%.  
     - title: Software Developer
       institution: NKR Solutions
-      year: Nov 2023 – Feb 2024
+      timeline: Nov '23 – Feb '24
       description:
         - Developed ML-powered trading algorithms and automated broker integrations, reducing manual work by 80%.  
     - title: Research Assistant
       institution: IIIT Delhi
-      year: Sep 2023 – Jan 2024
+      timeline: Sep '23 – Jan '24
       description:
         - Designed multimodal depression detection model (stacked LSTMs + SHAP).  
     - title: Software Engineer Intern
       institution: Bluekaktus
-      year: May 2022 – Aug 2022
+      timeline: May '22 – Aug '22
       description:
         - Optimized SQL queries & backend APIs, reducing response time by 40%.  
     - title: Summer Trainee
       institution: Cadence Design Systems
-      year: May 2021 – Aug 2021
+      timeline: May '21 – Aug '21
       description:
         - Built frontend tools (PHP/JS) to automate simulation comparisons.  
 
@@ -81,16 +81,17 @@
         - Trained PPO/A2C/DDPG agents, improved Sharpe ratio by 30%.  
 
 - title: Relevant Course work
-  type: time_table
+  type: list
   contents:
-    - Machine Learning
-    - Artificial Intelligence
-    - Natural Language preprocessing
-    - Reinforcement Learning
-    - Data Structure and Algorithms
-    - Cloud Computing
-    - Big Data
-    - Data Mining
+    - <u>Machine Learning</u>
+    - <u>Artificial Intelligence</u>
+    - <u>Natural Language preprocessing</u>
+    - <u>Reinforcement Learning</u>
+    - <u>Data Structure and Algorithms</u>
+    - <u>Cloud Computing</u>
+    - <u>Big Data</u>
+    - <u>Data Mining</u>
+    
 
 - title: Achievements
   type: time_table
