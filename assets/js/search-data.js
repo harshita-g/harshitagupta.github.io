@@ -9,7 +9,14 @@ ninja.data = [{
     handler: () => {
       window.location.href = "/";
     },
-  },{id: "nav-cv",
+  },{id: "nav-blog",
+          title: "blog",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/blog/";
+          },
+        },{id: "nav-cv",
           title: "cv",
           description: "To download the CV, click on the PDF button.",
           section: "Navigation",
@@ -23,21 +30,14 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/people/";
           },
-        },{id: "dropdown-bookshelf",
-              title: "bookshelf",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/books/";
-              },
-            },{id: "dropdown-blog",
-              title: "blog",
-              description: "",
-              section: "Dropdown",
-              handler: () => {
-                window.location.href = "/blog/";
-              },
-            },{
+        },{id: "nav-submenus",
+          title: "submenus",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/_pages/dropdown.html";
+          },
+        },{
         id: 'social-email',
         title: 'email',
         section: 'Socials',
