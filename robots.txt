@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://harshita-g.github.io/harshitagupta.github.io/sitemap.xml
+Sitemap: https://harshita-g.github.io/sitemap.xml
