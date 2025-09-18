@@ -56,9 +56,9 @@
   type: list
   contents:
     - <u>Languages:</u> Python, Java, C++, SQL  
-    - <u>Tools:</u> AWS, GCP, Docker, GitHub Actions, PySpark, Airflow, Kafka  
+    - <u>Tools:</u> AWS, GCP, Docker, GitHub Actions, PySpark, Airflow, Kafka, Linux  
     - <u>Databases:</u> PostgreSQL, MongoDB, Cassandra  
-    - <u>ML/AI:</u> CV (YOLOv5, OpenCV), NLP, PyTorch, TensorFlow, HuggingFace  
+    - <u>ML/AI:</u> CV (YOLOv5, OpenCV), NLP, PyTorch, TensorFlow, HuggingFace, RAG, LangChain, LLM, RNN  
 
 - title: Selected Projects
   type: time_table
@@ -70,7 +70,7 @@
     - title: Image Captioning with Attention
       year: 2023
       description:
-        - CNN-LSTM with ResNet-101, BLEU-4: 0.1637 on Flickr8k.  
+        - CNN-LSTM with ResNet-101, BLEU-4 score of 0.1637 on Flickr8k.  
     - title: Distracted Driver Detection
       year: 2022
       description:
@@ -80,12 +80,24 @@
       description:
         - Trained PPO/A2C/DDPG agents, improved Sharpe ratio by 30%.  
 
+- title: Relevant Course work
+  type: time_table
+  contents:
+    - Machine Learning
+    - Artificial Intelligence
+    - Natural Language preprocessing
+    - Reinforcement Learning
+    - Data Structure and Algorithms
+    - Cloud Computing
+    - Big Data
+    - Data Mining
+
 - title: Achievements
   type: time_table
   contents:
-    - year: 2025
+    - year: 2024
       items:
-        - Google Cloud Badge: Generative AI  
+        - Google Cloud Badge Generative AI  
     - year: 2023
       items:
         - Mentor, Student Mentorship Program  
