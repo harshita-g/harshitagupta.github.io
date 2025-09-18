@@ -16,20 +16,6 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/harshitagupta.github.io/cv/";
           },
-        },{id: "nav-people",
-          title: "people",
-          description: "members of the lab or group",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/harshitagupta.github.io/people/";
-          },
-        },{id: "nav-submenus",
-          title: "submenus",
-          description: "",
-          section: "Navigation",
-          handler: () => {
-            window.location.href = "/harshitagupta.github.io/_pages/dropdown.html";
-          },
         },{
         id: 'social-email',
         title: 'email',
